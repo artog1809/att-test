@@ -3,7 +3,7 @@
 export const Search = () => {
 
     return (
-        <form>
+        <form className = "form-search">
             <button type="submit">
                 <img src="public/icn/search.svg"/>
             </button>
