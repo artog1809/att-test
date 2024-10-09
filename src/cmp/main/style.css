@@ -34,7 +34,7 @@
 }
 .main span {
     font-weight: 500;
-    font-size: 16px;
+    font-size: clamp(0.75rem, 0.6842rem + 0.2632vw, 1rem);
     color: #718EBF;
 }
 
@@ -64,6 +64,10 @@
     flex: 1; 
 }
 
+.form-elem label { 
+    font-size: clamp(0.75rem, 0.6842rem + 0.2632vw, 1rem);
+}
+
 .form-elem input {
     width: 100%;
     padding: 8px;
@@ -72,6 +76,7 @@
     height: 50px;
     margin-top: 10px;
     border-radius: 15px;
+    font-size: clamp(0.75rem, 0.6842rem + 0.2632vw, 1rem);
 }
 
 INPUT[type='date'] {
@@ -113,9 +118,24 @@ INPUT[type='text'] {
 }
 
 @media (max-width: 768px) {
+
+    .main {
+        height: 100vh;
+    }
     .form-elem {
         flex: 1 calc(100% - 10px);
         box-sizing: border-box;
     }
     
+    .main-content {
+        max-height: 60vh;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 968px) {
+    .main {
+    margin-left: 0px;
+    height: calc(100vh - 100px);
+    }
 }
