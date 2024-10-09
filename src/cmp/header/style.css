@@ -2,11 +2,62 @@
 .header { 
     background-color: #FAFBFF;
     height: 100px;
-    width: 100%;
+    width: calc(100% - 250px);
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
     margin-left: 250px;
+}
+
+.header-content {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left_text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #343C6A;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right_user-avatar {
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 60px;
+}
+
+form {
+    background-color: #F5F7FA;
+    width: 255px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+INPUT[type="text"] {
+    padding-left: 10px;
+    color: #8BA3CB;
+}
+input::placeholder {
+    color: #8BA3CB;
+}
+
+.header-btn {
+    background-color: #F5F7FA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
