@@ -26,7 +26,7 @@ export const Main = () => {
                 </div>
                 <div className="main-content">
                     <div className="main-content-left">
-                        <img className='main-content-avatar' src='public/img/avatar.png'/>
+                        <img className='main-content-avatar' src='./public/img/avatar.png'/>
                     </div>
                     <div className="main-content-right">
                         <form className='main-content-form'>
