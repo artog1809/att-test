@@ -135,6 +135,7 @@ INPUT[type='text'] {
 
 @media (max-width: 968px) {
     .main {
+    margin-top: 160px;
     margin-left: 0px;
     height: calc(100vh - 100px);
     }
