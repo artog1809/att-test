@@ -3,6 +3,6 @@
 export const Header = () => {
 
     return (
-        <div>Header</div>
+        <div className = "side-menu-header"></div>
     )
 }
