@@ -1,5 +1,5 @@
 
-import { Header } from '../header'
+import { Header } from './header'
 import { Nav } from './nav'
 import './style.css'
 

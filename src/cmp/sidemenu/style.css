@@ -7,6 +7,41 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 40px;
+    border-right: 1px solid #E6EFF5;
+}
+
+.side-menu-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.side-menu-header_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #343C6A;
+}
+
+.side-menu-nav {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.side-menu-nav_nav-elem {
+    font-weight: 500;
+    font-size: 18px;
+    color: #B1B1B1;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.side-menu-nav_nav-elem:last-child {
+    color: #1814F3;
 }
